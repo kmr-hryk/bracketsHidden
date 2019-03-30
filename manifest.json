@@ -1,0 +1,19 @@
+{
+  "name": "e-Govにある法律の条文などから括弧を見えないようにするやつ",
+  "version": "1.0.0",
+  "manifest_version": 2,
+  "description": "e-Govにある法律の条文などから括弧を見えないようにします。",
+  "content_scripts": [
+    {
+      "matches": ["https://elaws.e-gov.go.jp/search/elawsSearch/elaws_search/lsg0500/*"],
+      "js": ["content/jquery-3.3.1.min.js", "content/main.js"],
+      "run_at": "document_idle"
+    }
+  ],
+  "browser_action": {
+    "default_popup": "popup/index.html"
+  },
+  "icons": {
+    "256": "icon.png"
+  }
+}
