@@ -1,8 +1,8 @@
 {
-  "name": "e-Govにある法律の条文などから括弧を見えないようにするやつ",
+  "name": "法律の条文などから括弧を見えないようにするやつ",
   "version": "1.0.0",
   "manifest_version": 2,
-  "description": "e-Govにある法律の条文などから括弧を見えないようにします。",
+  "description": "法律の条文などから括弧を見えないようにします。",
   "content_scripts": [
     {
       "matches": ["https://elaws.e-gov.go.jp/search/elawsSearch/elaws_search/lsg0500/*"],
